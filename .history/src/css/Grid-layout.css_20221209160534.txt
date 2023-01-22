@@ -1,0 +1,16 @@
+#grid-col {
+   display: grid;   /*grid Layout*/
+  grid-template-columns: auto auto auto auto;
+  }
+
+
+div.cell {
+  background: #fff600;      /*Grid Cells*/
+  border: 1px solid #000;
+  padding: 10px;
+}
+
+/*Responsive grid*/
+@media screen and (max-width: 640px) {
+  #grid-col { grid-template-columns: 100%; }
+}

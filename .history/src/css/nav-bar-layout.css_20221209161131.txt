@@ -1,0 +1,46 @@
+body {font-family: Arial, Helvetica, sans-serif;}
+
+.navbar {
+    width: 100%;
+    background-color: #BDB76B;
+    overflow: auto;
+}
+
+.navbar a {
+float: left;
+padding-top: 70px;
+padding: 12px;
+color: #02261d;
+text-decoration: none;
+font-size: 17px;
+}
+
+.navbar a:hover {
+background-color: #8e8c8c;
+}
+.active {
+background-color: #736c6c;
+}
+.left {
+  float: left;
+}
+
+.right {
+  float: right;
+ }
+ 
+@media screen and (max-width: 500px) {
+.navbar a {
+    float: left;
+    display: block;
+}
+}
+<div class="navbar" float: left>
+
+<a class="active" href="#"><i class="fa fa-fw fa-home"></i> Home</a> 
+<a href="#"><i class="fa fa-fw fa-search"></i> Search</a>
+<a href="#"><i class="fa fa-fw fa-envelope"></i> Contact</a>
+
+<div class="right"><a href="#"><i class="fa fa-paw" aria-hidden="true"></i> Order Now</a>
+<div class="right"><a href="#"><i class="fa fa-shopping-cart" aria-hidden="true"></i> Cart</a>
+</div>
